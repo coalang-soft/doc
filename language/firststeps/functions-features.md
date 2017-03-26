@@ -1,6 +1,8 @@
 ## Table of Contents
 * Function literals
 * Functions as values
+  * Closures - A greeter function
+* Parameter handling
 
 ## Function literals
 CoaLang provides a way to define functions that evaluate an expression and return it shorter: `<|2>` - this is a function which always return 2.
@@ -21,4 +23,31 @@ use the generated function, say who we want to greet and output the greeting:
 def greeter(howToGreet){
   return <whoToGreet|println(howToGreet & " " & whoToGreet)>;
 }
+
+var greetHello = greeter("Hello");
+//Hello random person
+greetHello("random person");
+```
+
+## Parameter handling
+There are two kinds of functions: those from CoaLang code and embedded functions from Java.
+The Java functions do not accept more or less parameters than needed, but CoaLang
+functions do. Let us see what happens if we do the following:
+
+```
+def test(a){
+	println(a);
+}
+a();
+a("Hello");
+a("Hello", "World");
+```
+
+If a required parameter is not added to the function call, the parameters value is
+`undefined`, which is output as `null`. If there are too many parameters, they are ignored.
+So, the output is:
+```
+null
+Hello
+Hello
 ```
