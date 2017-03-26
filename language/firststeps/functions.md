@@ -4,8 +4,7 @@ Functions are really important. Learn what functions are in general and what you
 * Functions in general
   * Calling Functions
   * Defining Functions
-* Features in CoaLang
-* Next?
+* [Features in CoaLang](functions-features.md)
 
 ## Functions in general
 Functions contain pieces of code and allow you to use them everywhere. Every function has a name you can use to access the function you want.
@@ -30,9 +29,4 @@ What the function does is defined between the curly braces. In this case it is `
 
 If we do not return a value, the function ends if the code was executed.
 
-## Features in CoaLang
-WIP
-
-## Next?
-
-WIP
+## [Features in CoaLang](functions-features.md)
