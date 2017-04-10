@@ -7,7 +7,7 @@ Parameter 1: A function to run in an own thread.
 Parameter 2: A name for the Thread.
 Returns: The Thread-starter.
 
-### Thread().start()
+### Thread().start
 Effect: Starts the thread.
 
 ## Location
