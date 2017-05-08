@@ -12,8 +12,6 @@ op("add")(1,2);
 ## Standard operator functions
 There is a function for every standard operator, which can be used as in the sample above: `add(1,2)` is 3.
 
-add,sub,mul,div,mod,pow,lss,gtr,equals,not,nvp,concat
-
 Operator|property and function name
 ---|--- 
 `+`|add
