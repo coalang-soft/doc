@@ -8,6 +8,7 @@ The `eval` library is a great way to use other programming languages within CoaL
 You can choose which language you want to run by using the file extension as a property name. The following languages are supported:
 * js - JavaScript
 * ant - AntLang (with `#include ccl/eval/AntLang.cl2`, needs internet connection)
+* json - (with `#include ccl/eval/Json.cl2`)
 
 ## Running scripts
 Let us try to run JavaScript code. Here is how to do it:
