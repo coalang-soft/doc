@@ -67,8 +67,38 @@ Adds the specified string to the stack.
 ### putA
 Adds an empty array to the stack.
 ### putM S
-Adds a function to the stack. The function behavior is written in mnemonics in the specified file.
+Adds a function to the stack. The function behavior is written in mnemonics in the specified file. This function has its own stack.
 ### get S
 Gets the specified property from the first value on the stack and adds it back.
-
-WIP
+### duplicate
+Takes the first value from the stack and adds it back twice.
+### pop
+Removes the first value from the stack. If it is an error, it is returned.
+### ret
+Returns the first value on the stack.
+### reserve
+Deprecated feature. Use [__mkvar_u](#__mkvar_u-s) instead.
+### __undefined
+Adds the undefined value to the stack.
+### __mkvar_u S
+Creates the specified variable and stores undefined in it.
+### __java S
+Loads the specified java class and adds it to the stack.
+### __invoke0
+Invokes the first value on the stack with no parameters.
+### __invoke1
+Faster version of [invoke 1](#invoke-i).
+### __invoke2
+Faster version of [invoke 2](#invoke-i).
+### __arrpush1
+Adds a value to an array. The value is the first on the stack, the array is second. The array is added back.
+### __arrpush2 S
+Adds a named value (or property) to an array. The value is the first on the stack, the array is second and the name is the parameter. The array is added back.
+### __float F
+Adds the specified float to the stack.
+### newscope
+Deprecated feature. Opens a new variable scope. Use a new function with [putM](#putM-S) instead, this creates a new scope too.
+### oldscope
+Deprecated feature. Closes a variable scope. Use a new function with [putM](#putM-S) instead, this creates a new scope too.
+### store
+Deprecated feature. Stores a value (first stack item) in a variable (second stack item). You should use [__setvar](#__setvar-s) instead.
