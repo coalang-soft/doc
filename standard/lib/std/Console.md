@@ -18,4 +18,4 @@ Parameter 1: The text.
 Effect: Reads a string from the user. Return: The user Input, undefined if cancelled.
 
 ## Location
-* CoaLang in Java: [ccl/std/Console.cl2](https://github.com/ccldev/use-ccl/blob/master/ccl/std/Console.cl2)
+* CoaLang in Java: [ccl/std/Console.cl2](https://github.com/coalang-soft/coastandardlib/blob/master/ccl/std/Console.cl2)
