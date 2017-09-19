@@ -11,4 +11,4 @@ Returns: The Thread-starter.
 Effect: Starts the thread.
 
 ## Location
-* CoaLang in Java: [ccl/std/Thread.cl2](https://github.com/ccldev/use-ccl/blob/master/ccl/std/Thread.cl2)
+* CoaLang in Java: [ccl/std/Thread.cl2](https://github.com/coalang-soft/coastandardlib/blob/master/ccl/std/Thread.cl2)
