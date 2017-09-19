@@ -12,6 +12,9 @@ var test = 5;
 test.setProperty("stuff", "yay");
 //yay
 println(test.stuff);
+test.stuff = "abc";
+//abc
+println(test.stuff);
 ```
 (TODO: Standard property overview)
 
