@@ -8,7 +8,7 @@ Properties are name-value-pairs which belong to another value. You can access on
 Values have standard-properties, but you can add your own too:
 
 ```
-var test = 5;
+var test = [];
 test.setProperty("stuff", "yay");
 //yay
 println(test.stuff);
