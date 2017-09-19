@@ -6,4 +6,4 @@ Effect: evaluates a function repeadedly.
 Parameter 1: The function to evaluate. Expects no parameter.
 
 ## Location
-* CoaLang in Java: [ccl/fx/timerLib.ccl](https://github.com/coalang-soft/coafx/blob/master/timerLib.ccl)
+* CoaLang in Java: [ccl/std/Timer.cl2](https://github.com/coalang-soft/CoaStandardLib/blob/master/ccl/std/Timer.cl2)
